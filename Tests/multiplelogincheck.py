@@ -18,7 +18,7 @@ class LoginTest(unittest.TestCase):
         options = webdriver.ChromeOptions()
         options.add_argument('--ignore-certificate-errors')
         self.driver = webdriver.Chrome(options=options, executable_path="C:\\Users\\vishv\\Desktop\\ones1.2\\Drivers\\chromedriver.exe")
-        self.driver.get("https://192.168.74.129")
+        self.driver.get("https://192.168.74.133")
         self.driver.maximize_window()
  
     def test01_Invalid_login_credential(self):

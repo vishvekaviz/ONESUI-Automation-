@@ -27,7 +27,7 @@ class LoginTest(unittest.TestCase):
         options = webdriver.ChromeOptions()
         options.add_argument('--ignore-certificate-errors')
         cls.driver = webdriver.Chrome(options=options, executable_path="C:\\Users\\vishv\\Desktop\\ones1.2\\Drivers\\chromedriver.exe")
-        cls.driver.get("https://192.168.74.129")
+        cls.driver.get("https://192.168.74.133")
         cls.driver.maximize_window()
 
     def test01_Auto_Refresh_Interval_30_second(self):
